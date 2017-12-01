@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <?php require_once 'include/head.php'; ?>
+    </head>
+    <body>
+
+        <!-- TOPO -->
+
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+        <div>
+            <?php
+            require_once 'include/include_header.php';
+            ?>
+            <div class="container-fluid"></div>
+
+
+        </div>
+        <!-- FIM TOPO-->
+
+        <!-- MENU LATERAL -->
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">
+                            MENU
+                        </a>
+                        <a href="#" class="list-group-item">Coin</a>
+                        <a href="#" class="list-group-item">Roupa</a>
+                        <a href="#" class="list-group-item">Pets</a>
+                        <a href="#" class="list-group-item">Eat</a>
+                    </div>
+                </div>
+                <!-- FIM MENU LATERAL -->
+
+                <!-- CONTEUDO -->
+                <div class="col-md-9">
+                    <form action="?" method="get">
+
+                           <div class="form-group">
+                            <label for="exampleInputPassword1">Nome</label>
+
+                            <input type="text" name="text" id="exampleInputPassword1" value="" class="form-control" placeholder="Nome">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Endereço de e-mail
+                            </label>
+
+                            <input type="email" name="email" id="exampleInputEmail1"  value="" class="form-control" placeholder="Email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Senha</label>
+
+                            <input type="password" name="password" id="exampleInputPassword1" value="" class="form-control" placeholder="senha">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Idade</label>
+
+                            <input type="number" name="number" id="exampleInputPassword1" value="" class="form-control" placeholder="Idade">
+
+                            <div class="form-group">
+                                <br>
+                                <label for="exampleInputPassword1">Sexo</label>
+
+
+                                <select name="sexo" id="sexo">
+
+
+                                    <option value="M">Masculino</option>
+                                    <option value="F">Feminino</option>
+                                    <option value="O">Outros</option>
+
+                                </select>
+
+                            </div>
+
+                            <div class="form-group">
+                                <label>Facçao</label>
+                                <br>
+
+                                <input type="radio" name="gender" value="M"> Cavaleiros
+
+                                <input type="radio" name="gender"  value="M"> Samurais
+
+                                <input type="radio" name="gender" value="M"> Vikings
+
+                            </div>
+
+                            <div>
+
+                                <div class="form-group">
+                                    <label>Servidores</label>
+                                    <br>
+                                    <label class="checkbox-inline"><input type="checkbox" value="">USA</label>
+
+                                    <label class="checkbox-inline"><input type="checkbox" value="">JP</label>
+
+                                    <label class="checkbox-inline"><input type="checkbox" value="">UK</label>
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="exampleInputFile">File input
+                                </label>
+
+                                <input type="file" name="file"  id="exampleInputFile">
+                                <p class="help-block">xxxxxxxx</p>
+
+                            </div>
+
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" name="checkbox" value="1"> Check me out
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-default">Enviar</button>
+                            </form>
+
+                        <div>
+                            <div class="col-md-4"></div>
+                            <h1>Player</h1>
+                            <div class="list-group col-md-5"></div>
+                            <img src="imagens/armas.webp" heigth="300" width="300">
+
+                        </div>
+
+                        <!-- FIM CONTEUDO -->
+
+                        <!-- INICIO FOOTER -->
+                        <?php require_once 'include/footer.php'; ?>
+                        <!-- FIM FOOTER -->
+
+
+                        <script src="js/main.js"></script>
+                        </body>
+                    </html>

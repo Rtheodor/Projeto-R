@@ -1,37 +1,50 @@
-<div class="header">
 
-    <div> Aqui vai o logo </div>
-    <div class="menu">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
 
-    </div>
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid btn btn-lg active">
+            <div class="col-md-1">
+                <img src="imagens/C.png" class="img-responsive" width="100">
 
-                    <a href="index.php" class="btn btn-default">
-                        Vikings
-                    </a>
+            </div>
 
-                    <a href="cavaleiros.php" class="btn btn-default">
-                        Cavaleiros
-                    </a>
+            <div class="col-md-1">
+                <img src="imagens/S.png" class="img-responsive" width="100">
 
-                    <a href="samurais.php" class="btn btn-default">
-                        Samurais
+            </div>
 
-                    </a>
+            <div class="col-md-1">
+                <img src="imagens/V.png" class="img-responsive" width="100">
 
-                    <a href="armas.php" class="btn btn-default">
-                        Armas  
-                    </a>
+            </div>
+            <div class="col-md-9 text-right">
+                <br><br>
+                <a href="index.php" class="btn btn-default">
+                    Vikings
+                </a>
 
-                    <a href="mapas.php" class="btn btn-default">
-                        Mapas
-                    </a>
+                <a href="cavaleiros.php" class="btn btn-default">
+                    Cavaleiros
+                </a>
 
-                    <a href="guilds.php" class="btn btn-default">
-                        Guilds
-                    </a>
-            </nav>
+                <a href="samurais.php" class="btn btn-default">
+                    Samurais
+
+
+                </a>
+
+                <a href="player.php" class="btn btn-default">
+                    Player
+                </a>
+
+                <a href="mapas.php" class="btn btn-default">
+                    Mapas
+                </a>
+
+                <a href="guilds.php" class="btn btn-default">
+                    Guilds
+                </a>
+            </div>
         </div>
+    </nav>
 
 

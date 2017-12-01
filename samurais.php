@@ -28,8 +28,8 @@
                 <div class="container-fluid">
                 <div class="row">
                 
-                <div class="col-md-5">
-                    <div class="list-group col-md-2">
+                <div class="col-md-3">
+                    <div class="list-group">
                         <a href="#" class="list-group-item active">
                             MENU
                         </a>
@@ -42,6 +42,7 @@
                 <!-- FIM MENU LATERAL -->
 
                 <!-- CONTEUDO -->
+                <div class="col-md-9">
                 <div>
                     <h1>Samurais</h1>
                 </div>
