@@ -1,26 +1,26 @@
-<!DOCTYPE html>
+<!-DOCTYPE html>
+
 <html lang="pt-br">
-    <head>
+
+   
+     <head>
         <?php require_once 'include/head.php'; ?>
     </head>
-    <body>
+<body>
 
         <!-- TOPO -->
 
-        <script src="js/bootstrap.min.js"></script>
 
-        <script src="js/main.js"></script>
         <div>
-            <?php
+            <?php 
             require_once 'include/include_header.php';
             ?>
-            <div class="container-fluid"></div>
-
-
+            <div class="container-fluid"></div> 
         </div>
         <!-- FIM TOPO-->
-
+       
         <!-- MENU LATERAL -->
+ 
         <div class="container-fluid">
             <div class="row">
 
@@ -38,15 +38,16 @@
                 <!-- FIM MENU LATERAL -->
 
                 <!-- CONTEUDO -->
+                        
                 <div class="col-md-9">
-                    <form action="?" method="get">
-
+                    <form action="playerx.php" method="post">
+                        
                            <div class="form-group">
                             <label for="exampleInputPassword1">Nome</label>
 
-                            <input type="text" name="text" id="exampleInputPassword1" value="" class="form-control" placeholder="Nome">
+                            <input type="text" name="name" id="exampleInputPassword1" value="" class="form-control" placeholder="Nome">
                         </div>
-
+                           
                         <div class="form-group">
                             <label for="exampleInputEmail1">Endereço de e-mail
                             </label>
@@ -57,13 +58,14 @@
                         <div class="form-group">
                             <label for="exampleInputPassword1">Senha</label>
 
-                            <input type="password" name="password" id="exampleInputPassword1" value="" class="form-control" placeholder="senha">
+                            <input type="password" name="senha" id="exampleInputPassword1" value="" class="form-control" placeholder="senha">
                         </div>
 
                         <div class="form-group">
                             <label for="exampleInputPassword1">Idade</label>
 
-                            <input type="number" name="number" id="exampleInputPassword1" value="" class="form-control" placeholder="Idade">
+                            <input type="number" name="idade" id="exampleInputPassword1" value="" class="form-control" placeholder="Idade">
+                        </div>
 
                             <div class="form-group">
                                 <br>
@@ -85,27 +87,25 @@
                                 <label>Facçao</label>
                                 <br>
 
-                                <input type="radio" name="gender" value="M"> Cavaleiros
+                                <input type="radio" name="faccao" value="C"> Cavaleiros
 
-                                <input type="radio" name="gender"  value="M"> Samurais
+                                <input type="radio" name="faccao" value="S"> Samurais
 
-                                <input type="radio" name="gender" value="M"> Vikings
+                                <input type="radio" name="faccao" value="V"> 
+                                Vikings
 
                             </div>
 
                             <div>
 
-                                <div class="form-group">
-                                    <label>Servidores</label>
-                                    <br>
-                                    <label class="checkbox-inline"><input type="checkbox" value="">USA</label>
-
-                                    <label class="checkbox-inline"><input type="checkbox" value="">JP</label>
-
-                                    <label class="checkbox-inline"><input type="checkbox" value="">UK</label>
-                                </div>
-
-                            </div>
+                             <div class="form-group">
+						<label> Servidores</label>	
+						<br>
+						<!--<input type="checkbox" name="concordo[]" value="1"> Concorda?-->
+						<input type="checkbox" name="servidores[]" value="1" id="id1" for="id1"> USA
+						<input type="checkbox" name="servidores[]" value="2"> JP
+						
+						<input type="checkbox" name="servidores[]" value="3" id="id3" for="id3"> UK </div>
 
 
                             <div class="form-group">
@@ -123,15 +123,15 @@
                                 </label>
                             </div>
                             <button type="submit" class="btn btn-default">Enviar</button>
-                            </form>
+                                  
 
                         <div>
                             <div class="col-md-4"></div>
                             <h1>Player</h1>
                             <div class="list-group col-md-5"></div>
                             <img src="imagens/armas.webp" heigth="300" width="300">
-
                         </div>
+                    </form>
 
                         <!-- FIM CONTEUDO -->
 
@@ -140,6 +140,6 @@
                         <!-- FIM FOOTER -->
 
 
-                        <script src="js/main.js"></script>
-                        </body>
-                    </html>
+    
+</body>
+</html>

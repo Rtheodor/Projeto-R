@@ -11,9 +11,7 @@
 		?>
 	<!-- TOPO -->
 
-        <script src="js/bootstrap.min.js"></script>
-
-        <script src="js/main.js"></script>
+     
         <div>
             <?php 
             require_once 'include/include_header.php';
@@ -52,6 +50,5 @@
 	<!-- FIM FOOTER -->
 
 
-	<script src="js/main.js"></script>
 </body>
 </html>

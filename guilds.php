@@ -7,10 +7,6 @@
 
         <!-- TOPO -->
 
-        <script src="js/bootstrap.min.js"></script>
-
-        <script src="js/main.js"></script>
-        <div>
             <?php 
             require_once 'include/include_header.php';
             ?>
@@ -21,9 +17,9 @@
         <!-- FIM TOPO-->
 
         <!-- MENU LATERAL -->
-        <div class="container-fluid">
-            <div class="row">
-
+                <div class="container-fluid">
+                <div class="row">
+                
                 <div class="col-md-3">
                     <div class="list-group">
                         <a href="#" class="list-group-item active">
@@ -39,18 +35,14 @@
 
                 <!-- CONTEUDO -->
                 <div class="col-md-9">
-                    <div>
-                        <h1>Guilds</h1>
-                    </div>
+                <div>
+                    <h1>Guilds</h1>
                 </div>
                 <!-- FIM CONTEUDO -->	
-            </div>
-        </div>
+
         <!-- INICIO FOOTER -->
         <?php require_once 'include/footer.php'; ?>
         <!-- FIM FOOTER -->
 
-
-        <script src="js/main.js"></script>
     </body>
 </html>

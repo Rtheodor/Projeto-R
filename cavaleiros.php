@@ -7,9 +7,7 @@
 
         <!-- TOPO -->
 
-        <script src="js/bootstrap.min.js"></script>
-
-        <script src="js/main.js"></script>
+       
         <div>
             <?php 
             require_once 'include/include_header.php';
@@ -30,7 +28,7 @@
                             MENU
                         </a>
                         <a href="#" class="list-group-item">Soldado</a>
-                        <a href="#" class="list-group-item">comandante</a>
+                        <a href="#" class="list-group-item">Comandante</a>
                         <a href="#" class="list-group-item">Capitao</a>
                         <a href="#" class="list-group-item">General</a>
                     </div>
@@ -39,7 +37,7 @@
 
                 <!-- CONTEUDO -->
                 <div class="col-md-9">
-
+                
                 <div>
                     <h1>Cavaleiros</h1>
                 </div>
@@ -50,7 +48,6 @@
                 <!-- FIM FOOTER -->
 
 
-                <script src="js/main.js"></script>
-    </body>
+     </body>
             
 </html>
