@@ -27,7 +27,7 @@
 
                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.php">Inicio</a></li>        
+                        <li class="active"><a href="index.php">Vikings</a></li>        
                         <li><a href="armas.php">Armas</a></li>
                         <li><a href="cavaleiros.php">Cavaleiros</a></li>
                         <li><a href="samurais.php">Samurais</a></li>

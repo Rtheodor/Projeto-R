@@ -87,11 +87,11 @@
                                 <label>Facçao</label>
                                 <br>
 
-                                <input type="radio" name="faccao" value="C"> Cavaleiros
+                                <input type="radio" name="faccao" value="1"> Cavaleiros
 
-                                <input type="radio" name="faccao" value="S"> Samurais
+                                <input type="radio" name="faccao" value="2"> Samurais
 
-                                <input type="radio" name="faccao" value="V"> 
+                                <input type="radio" name="faccao" value="3"> 
                                 Vikings
 
                             </div>
@@ -119,7 +119,7 @@
 
                             <div class="form-group">
                                 <label>
-                                    <input type="checkbox" name="checkbox" value="1"> Check me out
+                                    <input type="checkbox" name="termo" value="1"> Aceito os termos
                                 </label>
                             </div>
                             <button type="submit" class="btn btn-default">Enviar</button>
