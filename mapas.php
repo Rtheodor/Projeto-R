@@ -5,7 +5,7 @@
 </head>
 <body>
 <!-- TOPO -->
-
+        <div>
             <?php 
             require_once 'include/include_header.php';
             ?>
