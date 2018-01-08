@@ -38,9 +38,8 @@
                         </a>
                         <a href="armas.php?id=0" class="list-group-item">Armaduras</a>
                         <a href="armas.php?id=1" class="list-group-item">Bandeiras</a>
-                        <a href="armas.php?id=2" class="list-group-item">Bestas</a>
                         <a href="armas.php?id=3" class="list-group-item">Espadas</a>
-                                                
+                        <a href="armas.php?id=2" class="list-group-item">Machado</a>                        
                     </div>
                     
                 </div>
@@ -48,30 +47,35 @@
                 <!-- FIM MENU LATERAL -->
 
                 <!-- CONTEUDO -->
+            <div class="col-md-10">
+                
                 <h1>ARMAS</h1>
             
-            <div class="jumbotron">
+                <div class="jumbotron">
 
 					<?php
 				    
                     $array = array(
-                        array("imgs" => "arma_um.gif", "texto" => "Testando 1"),
-                        array("imgs" => "arma_dois.jpg", "texto" => "Testando 2"),
-                        array("imgs" => "arma_tres.jpg", "texto" => "Testando 3"),
-				        array("imgs" => "fogo.jpeg", "texto" => "Testando 4"),               
+                        array("imgs" => "arma_um.gif", "texto" => "Pelas pesquisas, espadas eram pouco usadas,das mais de cem armas encontradas em escavações, apenas 16 eram espadas. Um guerreiro a ganha de presente de um chefe, e a mesma, é então passada de pai para filho, por gerações.", "titulo" => "Arma um"),
+                        
+                        array("imgs" => "mexico.png", "texto" => "Pelas pesquisas, espadas eram pouco usadas,das mais de cem armas encontradas em escavações, apenas 16 eram espadas. Um guerreiro a ganha de presente de um chefe, e a mesma, é então passada de pai para filho, por gerações.", "titulo" => "Minha patria"),
+                        
+                        array("imgs" => "arma_tres.jpg", "texto" => "Pelas pesquisas, espadas eram pouco usadas,das mais de cem armas encontradas em escavações, apenas 16 eram espadas. Um guerreiro a ganha de presente de um chefe, e a mesma, é então passada de pai para filho, por gerações.", "titulo" => "Machados"),
+				        
+                        array("imgs" => "armas.webp", "texto" => "Pelas pesquisas, espadas eram pouco usadas,das mais de cem armas encontradas em escavações, apenas 16 eram espadas. Um guerreiro a ganha de presente de um chefe, e a mesma, é então passada de pai para filho, por gerações.", "titulo" => "Espadas"),              
 					);	
-//                echo '<pre>';
-//                print_r($array);
                 
+                                   
                     ?>
                     
-                    <h1><?php echo $array[$id]['texto']; ?></h1>		
+                    <h1><?php echo $array[$id]['titulo']; ?></h1>		
 					<img src="imagens/<?php echo $array[$id]['imgs']; ?>" class="img-responsive">
-					<p><?php echo $array[$id]['texto']; ?></p>
+					<p class="text-danger"><?php echo $array[$id]['texto']; ?></p>
             
             
             
             
+                </div>
             </div>
             
             <!-- FIM CONTEUDO -->
