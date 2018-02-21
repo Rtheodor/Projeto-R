@@ -19,8 +19,9 @@
         <!-- FIM TOPO-->
 
        <!-- MENU LATERAL -->
-                <div class="container-fluid">
-                <div class="row">
+<!--
+        <div class="container-fluid"></div>
+                    <div class="row"></div>
                 
                 <div class="col-md-3">
                     <div class="list-group">
@@ -38,10 +39,11 @@
                         
                     </div>
                 </div>
+-->
                 <!-- FIM MENU LATERAL -->
 
                 <!-- CONTEUDO -->
-                <div class="col-md-9">
+                <div class="col-md-9"></div>
                 
                 <div>
                     <h1>Cavaleiros</h1>

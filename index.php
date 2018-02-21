@@ -1,55 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-	<?php require_once 'include/head.php'; ?>
-</head>
-<body>
-
-	<!-- TOPO -->
-
-            <div>
-            <?php 
-            require_once 'include/include_header.php';
-            ?>
-            <div class="container-fluid"></div> 
-
-
-        </div>
-        <!-- FIM TOPO-->
-
+    <head>
+        <meta charset="utf-8">
+        <title> Tela de login </title>
+    </head>
+    
+       
+    <body>
+        <h3> Tela de login </h3><br>
         
-                <!-- MENU LATERAL -->
-                <div class="container-fluid">
-                <div class="row">
-                
-                <div class="col-md-3">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item active">
-                            MENU
-                        </a>
-                            <a href="#" class="list-group-item">Marechal</a>
-                            <a href="#" class="list-group-item">General </a>
-                            <a href="#" class="list-group-item">Coronel</a>
-                            <a href="#" class="list-group-item">Capitao</a>
-                            <a herf="#" class="list-group-item">Tenente</a>
-                            <a herf="#" class="list-group-item">Sargento</a>
-                            <a herf="#" class="list-group-item">Cabo</a>
-                            <a herf="#" class="list-group-item">Soldado</a>
-                    </div>
-                </div>
-                <!-- FIM MENU LATERAL -->
-
-                <!-- CONTEUDO -->
-                   <div class="col-md-9">
-                <div>
-                    <h1>Vikings</h1>
-                </div>
-                <!-- FIM CONTEUDO -->	
-
-	<!-- INICIO FOOTER -->
-	<?php require_once 'include/footer.php'; ?>
-	<!-- FIM FOOTER -->
-
-	
-</body>
+        <form method="POST" name="loginform" action=".php">
+            <label>Email </label>
+            <input type="email" name="email" placeholder="email"><br>
+            <label>senha </label>
+            <input type="password" name="senha" id="senha" value="" class="form-control" placeholder="senha"><br>
+            <br>
+            <input type="submit" name="enviar" value="Logar">
+        </form>
+    </body>
 </html>

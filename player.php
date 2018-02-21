@@ -21,6 +21,7 @@
        
         <!-- MENU LATERAL -->
  
+<!--
         <div class="container-fluid">
             <div class="row">
 
@@ -35,6 +36,7 @@
                         <a href="#" class="list-group-item">Eat</a>
                     </div>
                 </div>
+-->
                 <!-- FIM MENU LATERAL -->
 
                 <!-- CONTEUDO -->
@@ -42,7 +44,7 @@
                 <div class="col-md-9">
                     <form action="playerx.php" method="post">
                         
-                           <div class="form-group">
+                        <div class="form-group">
                             <label for="exampleInputPassword1">Nome</label>
 
                             <input type="text" name="name" id="exampleInputPassword1" value="" class="form-control" placeholder="Nome">
@@ -91,14 +93,12 @@
 
                                 <input type="radio" name="faccao" value="2"> Samurais
 
-                                <input type="radio" name="faccao" value="3"> 
-                                Vikings
-
+                                <input type="radio" name="faccao" value="3"> Vikings
                             </div>
 
-                            <div>
+                        
 
-                             <div class="form-group">
+                    <div class="form-group">
 						<label> Servidores</label>	
 						<br>
 						<!--<input type="checkbox" name="concordo[]" value="1"> Concorda?-->
