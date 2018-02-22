@@ -37,10 +37,9 @@
                         <li><a href="armas.php">Armas</a></li>
                         <li><a href="guilds.php">Guilds</a></li>
                         <li><a href="mapas.php">Mapas</a></li> 
-                        <li><a href="player.php">Player</a></li>
-                         
+                        <li><a href="pagina_cadastro.php">Pagina de cadastro</a></li> 
                         
-                         
+                        
                     </ul>
                 </div><!-- /.navbar-collapse -->
 

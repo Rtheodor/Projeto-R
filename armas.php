@@ -56,13 +56,13 @@ $id     =$_GET['id'];
                 <?php
 
                 $array = array(
-                    array("imgs" => "arma_um.gif", "texto" => "Pelas pesquisas, espadas eram pouco usadas,das mais de cem armas encontradas em escavações, apenas 16 eram espadas. Um guerreiro a ganha de presente de um chefe, e a mesma, é então passada de pai para filho, por gerações.", "titulo" => "Arma um"),
+                    array("imgs" => "arma_um.gif", "texto" => "Pelas pesquisas, espadas eram pouco usadas.", "titulo" => "Arma um"),
 
-                    array("imgs" => "mexico.png", "texto" => "Pelas pesquisas, espadas eram pouco usadas,das mais de cem armas encontradas em escavações, apenas 16 eram espadas. Um guerreiro a ganha de presente de um chefe, e a mesma, é então passada de pai para filho, por gerações.", "titulo" => "Minha patria"),
+                    array("imgs" => "mexico.png", "texto" => "Pelas pesquisas, espadas eram pouco usadas.", "titulo" => "Minha patria"),
 
-                    array("imgs" => "arma_tres.jpg", "texto" => "Pelas pesquisas, espadas eram pouco usadas,das mais de cem armas encontradas em escavações, apenas 16 eram espadas. Um guerreiro a ganha de presente de um chefe, e a mesma, é então passada de pai para filho, por gerações.", "titulo" => "Machados"),
+                    array("imgs" => "arma_tres.jpg", "texto" => "Pelas pesquisas, espadas eram pouco usadas.", "titulo" => "Machados"),
 
-                    array("imgs" => "armas.webp", "texto" => "Pelas pesquisas, espadas eram pouco usadas,das mais de cem armas encontradas em escavações, apenas 16 eram espadas. Um guerreiro a ganha de presente de um chefe, e a mesma, é então passada de pai para filho, por gerações.", "titulo" => "Espadas"),              
+                    array("imgs" => "armas.webp", "texto" => "Pelas pesquisas, espadas eram pouco usadas.", "titulo" => "Espadas"),              
                 );	
 
 

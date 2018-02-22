@@ -23,6 +23,7 @@
         <!-- FIM TOPO-->
 
         <!-- MENU LATERAL -->
+<!--
     <div class="container-fluid"></div>
     <div class="row"></div>
                 
@@ -41,6 +42,7 @@
                             <a herf="#" class="list-group-item">Soldado</a>
                     </div>
                 </div>
+-->
                 <!-- FIM MENU LATERAL -->
 
                 <!-- CONTEUDO -->
