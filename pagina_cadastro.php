@@ -41,7 +41,7 @@
                 <!-- CONTEUDO -->
                         
                 <div class="col-md-9">
-                    <form action="playerx.php" method="post">
+                    <form action="registra_usuario.php" method="post">
                         
                         <div class="form-group">
                             <label for="exampleInputPassword1">Nome</label>
